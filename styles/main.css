@@ -1,0 +1,102 @@
+body {
+    background-color: #2f2f2f;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.seletor-pagina {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 0;
+}
+
+.botao-principal {
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid #ffae00;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-botao {
+    width: 150px;
+    height: 150px;
+}
+
+.divisor-horizontal {
+    width: 100%;
+    margin: 15px 0px;
+    border-color: rgb(128, 128, 128);
+}
+
+.receita-container {
+    background-color: transparent;
+    border: 2px solid #ffae00;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+}
+
+.receita-img {
+    height: 50px;
+    width: 50px;
+}
+
+.receita-valor {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.secao-inferior {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.divisor-vertical {
+    width: 1px;
+    background-color: rgb(128, 128, 128);
+    height: 100%;
+}
+
+.inferior-esquerda {
+}
+
+.inferior-direita {
+}
+
+.resumo-membros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.circulo-resumo-membros {
+        width: 450px;
+        height: 150px;
+        border-radius: 30PX;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 50px;
+        color: white;
+        font-weight: bold;  
+}
