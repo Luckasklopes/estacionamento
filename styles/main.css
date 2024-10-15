@@ -2,34 +2,16 @@ body {
     background-color: #2f2f2f;
     height: 100vh;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 
-.seletor-pagina {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 25px;
-    margin-top: 0;
-}
-
-.botao-principal {
-    height: 200px;
-    width: 200px;
-    background-color: transparent;
-    border: 2px solid #ffae00;
-    border-radius: 20px;
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.logo-botao {
-    width: 150px;
-    height: 150px;
+    width: 80%;
 }
 
 .divisor-horizontal {
@@ -64,7 +46,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
     margin-right: 50px;
     margin-left: 50px;
 }
@@ -76,22 +58,34 @@ body {
 }
 
 .inferior-esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
 }
 
 .inferior-direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
 }
 
 .resumo-membros {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 20px;
+    gap: 80px;
 }
 
 .circulo-resumo-membros {
-        width: 450px;
-        height: 150px;
-        border-radius: 30PX;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -99,4 +93,45 @@ body {
         font-size: 50px;
         color: white;
         font-weight: bold;  
+}
+
+.legenda-resumo-membros {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 160px;
+    margin-top: 15px;
+}
+
+.item-legenda-resumo-membros {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.historico-transacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: transparent;
+    border: 2px solid #ffae00;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.item-historico-transacoes {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;  
+}
+
+.titulo-historico-transacoes {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;  
+    margin-bottom: 10px;
 }

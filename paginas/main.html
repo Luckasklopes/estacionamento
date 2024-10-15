@@ -4,58 +4,70 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Menu Principal</title>
-        <link rel="stylesheet" href="../main.css">
+        <link rel="icon" type="image/png" href="../imagens/main-logo.png" sizes="32x32">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/menu.css">
     </head>
     <body>
-        <div class="seletor-pagina">
-            <div class="botao-principal">
-                <a href="mapa.html">
-                    <img src="../imagens/logos/map.png" alt="" class="logo-botao">
-                </a>
-            </div>
-            <div class="botao-principal">
-                <a href="clientes.html">
-                    <img src="../imagens/logos/user.png" alt="" class="logo-botao">
-                </a>
-            </div>
-            <div class="botao-principal">
-                <a href="main.html">
-                    <img src="../imagens/logos/home.png" alt="" class="logo-botao">
-                </a>
-            </div>
-            <div class="botao-principal">
-                <a href="https://youtube.com">
-                    <img src="../imagens/logos/placeholder.png" alt="" class="logo-botao">
-                </a>
-            </div>
-            <div class="botao-principal">
-                <a href="financeiro.html">
-                    <img src="../imagens/logos/money.png" alt="" class="logo-botao">
-                </a>
-            </div>
-        </div>
-        
-        <hr class="divisor-horizontal">
+        <div class="main-container">
+            <div id="menu-placeholder"></div>
+                
+            <hr class="divisor-horizontal">
 
-        <div class="secao-inferior">
-            <div class="inferior-esquerda">
-                <div class="resumo-membros">
-                    <div class="circulo-resumo-membros" style="border: 4px solid #ff0000;">
-                        4 NÃO PAGARAM
+            <div class="secao-inferior">
+                <div class="inferior-esquerda">
+                    <div class="resumo-membros">
+                        <div class="circulo-resumo-membros" style="border: 20px solid #ffffff;">
+                            15
+                        </div>
+                        <div class="circulo-resumo-membros" style="border: 20px solid #ff0000;">
+                            4
+                        </div>
+                        <div class="circulo-resumo-membros" style="border: 20px solid #00ff40;">
+                            11
+                        </div>
                     </div>
-                    <div class="circulo-resumo-membros" style="border: 4px solid #00ff40;">
-                        11 PAGARAM
+                    <div class="legenda-resumo-membros">
+                        <div class="item-legenda-resumo-membros" style="color: #ffffff;">
+                            Total
+                        </div>
+                        <div class="item-legenda-resumo-membros" style="color: #ffffff;">
+                            A Pagar
+                        </div>
+                        <div class="item-legenda-resumo-membros" style="color: #ffffff;">
+                            Pagos
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divisor-vertical"></div>
+
+                <div class="inferior-direita">
+                    <div class="receita-container">
+                        <span class="receita-valor">R$0.000,00</span>
+                    </div>
+
+                    <div class="historico-transacoes">
+                        <div class="titulo-historico-transacoes">
+                            Ultimos pagamentos
+                        </div>
+                        <div class="item-historico-transacoes">
+                            Lucas L. - R$150,00
+                        </div>
+                        <div class="item-historico-transacoes">
+                            Lucas L. - R$150,00
+                        </div>
+                        <div class="item-historico-transacoes">
+                            Lucas L. - R$150,00
+                        </div>
+                        <div class="item-historico-transacoes">
+                            Lucas L. - R$150,00
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="divisor-vertical"></div>
-
-            <div class="inferior-direita">
-                <div class="receita-container">
-                    <span class="receita-valor">R$0.000,00</span>
-                </div>
-            </div>
         </div>
+
+        <script src="../js/menu.js"></script>
     </body>
 </html>
