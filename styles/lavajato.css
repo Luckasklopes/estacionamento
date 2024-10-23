@@ -7,8 +7,93 @@ body {
     flex-direction: column;
 }
 
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
 .divisor-horizontal {
     width: 100%;
     margin: 15px 0px;
     border-color: rgb(128, 128, 128);
+}
+
+.secao-inferior {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.divisor-vertical {
+    width: 1px;
+    background-color: rgb(128, 128, 128);
+    height: 100%;
+}
+
+.inferior-esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
+}
+
+.inferior-direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
+}
+
+.resumo-container {
+    background-color: transparent;
+    border: 2px solid #ffae00;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+}
+
+.resumo-lavagens {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.historico-transacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: transparent;
+    border: 2px solid #ffae00;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.item-historico-transacoes {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;  
+}
+
+.titulo-historico-transacoes {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;  
+    margin-bottom: 10px;
 }

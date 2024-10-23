@@ -27,7 +27,7 @@ body {
     padding: 10px;
     display: flex;
     /*justify-content: center;*/
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .receita-img {
@@ -40,6 +40,14 @@ body {
     font-family: sans-serif;
     color: white;
     font-weight: 500;
+}
+
+.receita-data {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .secao-inferior {
