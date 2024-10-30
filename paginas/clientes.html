@@ -13,83 +13,69 @@
 
     <hr class="divisor-horizontal">
 
-    <div class="secao-inferior">
-        <div class="inferior-esquerda">
-            <div class="formulario">
-                <form class="client-form">
-                    <!-- Primeira linha: Nome e Sobrenome -->
-                    <div class="form-row">
-                      <input type="text" id="nome" placeholder="Nome" class="form-input">
-                      <input type="text" id="sobrenome" placeholder="Sobrenome" class="form-input">
-                    </div>
-                
-                    <!-- Segunda linha: Telefone -->
-                    <div class="form-row">
-                      <input type="tel" id="telefone" placeholder="Telefone (Somente números)" class="form-input full-width">
-                    </div>
-                
-                    <!-- Terceira linha: Nome do Veículo e Cor -->
-                    <div class="form-row">
-                      <input type="text" id="veiculo" placeholder="Nome do Veículo" class="form-input">
-                      <select id="cor" class="form-input">
-                        <option value="" disabled selected>Cor do Veículo</option>
-                        <option value="preto">Preto</option>
-                        <option value="branco">Branco</option>
-                        <option value="prata">Prata</option>
-                        <option value="cinza">Cinza</option>
-                        <option value="vermelho">Vermelho</option>
-                        <option value="azul">Azul</option>
-                      </select>
-                    </div>
-                
-                    <!-- Quarta linha: Placa -->
-                    <div class="form-row">
-                      <input type="text" id="placa" placeholder="Placa do Veículo" class="form-input full-width">
-                    </div>
-                
-                    <!-- Quinta linha: Imagens -->
-                    <div class="image-upload-container">
-                        <input type="file" id="imageUpload" accept="image/*" multiple class="file-input" onchange="handleFileUpload(this)" />
-                        <label for="imageUpload" class="upload-label">
-                          <img src="../imagens/logos/add.svg" alt="Placeholder" class="card-img" />
-                        </label>
-                        <p id="image-count" class="image-count">0 de 3 Imagens</p>
-                    </div>
-                    
-                    <!-- Sexta linha: Botão -->
-                    <div class="form-row">
-                        <button type="submit" class="form-button">Cadastrar Cliente</button>
-                      </div>
-                  </form>
-
-                  
+    <div class="container">
+        <div class="card">
+            Nome Sobrenome
+            <br>
+            Modelo Cor
+            <br>
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
         </div>
+        <div class="card">
+            Nome Sobrenome
+            <br>
+            Modelo Cor
+            <br>
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+        </div>
+        <div class="card">
+            Nome Sobrenome
+            <br>
+            Modelo Cor
+            <br>
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+        </div>
+        <div class="card">
+            Nome Sobrenome
+            <br>
+            Modelo Cor
+            <br>
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+        </div>
+        <div class="card">
+            Nome Sobrenome
+            <br>
+            Modelo Cor
+            <br>
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+        </div>
+        <div class="card">
+            Nome Sobrenome
+            <br>
+            Modelo Cor
+            <br>
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
+            <img src="../imagens/logos/placeholder.png" alt="" style="height: 80px; width: 80px;">
         </div>
 
-        <div class="divisor-vertical"></div>
-
-        <div class="inferior-direita">
-
-            <div class="container">
-                <div class="card-cliente">
-                    <div class="card-txt">
-                        Nome Sobrenome
-                        <br>
-                        (XX)X XXXX-XXXX
-                        <br>
-                        Modelo Cor
-                        <br>
-                        XXX0X00
-
-                    </div>
-                    <div class="card-img-container">
-                        <img src="../imagens/logos/placeholder.png" alt="" class="card-img">
-                        <img src="../imagens/logos/placeholder.png" alt="" class="card-img">
-                        <img src="../imagens/logos/placeholder.png" alt="" class="card-img">
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
 
     <script src="../js/menu.js"></script>
 </body>

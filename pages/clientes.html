@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="icon" type="image/png" href="../imagens/main-logo.png" sizes="32x32">
+    <link rel="stylesheet" href="../styles/clientes.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+<body>
+    <div id="menu-placeholder"></div>
+
+    <hr class="divisor-horizontal">
+
+    <div class="secao-inferior">
+        <div class="inferior-esquerda">
+            <div class="formulario">
+                <form class="client-form" action="index.php?action=registrarEntrada">
+                    <div class="form-row">
+                        <input type="text" placeholder="Placa" class="form-input">
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="form-button">Registrar Entrada</button>
+                    </div>
+                </form>  
+            </div>
+
+            <div class="formulario">
+                <form class="client-form" action="index.php?action=cadastrarMensalista">
+                    <div class="form-row">
+                        <input type="text" placeholder="Nome" class="form-input">
+                        <input type="text" placeholder="Sobrenome" class="form-input">
+                    </div>
+                
+                    <div class="form-row">
+                        <input type="tel" placeholder="Telefone (Somente números)" class="form-input full-width">
+                    </div>
+                
+                    <div class="form-row">
+                        <input type="text" placeholder="Nome do Veículo" class="form-input">
+                        <select class="form-input">
+                            <option value="" disabled selected>Cor do Veículo</option>
+                            <option value="preto">Preto</option>
+                            <option value="cinza">Cinza</option>
+                            <option value="prata">Prata</option>
+                            <option value="branco">Branco</option>
+                            <option value="azul">Outros</option>
+
+                        </select>
+                    </div>
+                
+                    <div class="form-row">
+                      <input type="text" placeholder="Placa do Veículo" class="form-input">
+                    </div>
+                      
+                    <!--
+                    <div class="image-upload-container">
+                        <input type="file" id="imageUpload" accept="image/*" multiple class="file-input" onchange="handleFileUpload(this)" />
+                        <label for="imageUpload" class="upload-label">
+                          <img src="../imagens/logos/add.svg" alt="Placeholder" class="card-img" />
+                        </label>
+                        <p id="image-count" class="image-count">0 de 3 Imagens</p>
+                    </div>
+                    -->
+
+                    <div class="form-row">
+                        <button type="submit" class="form-button">Cadastrar Cliente</button>
+                    </div>
+                </form>  
+            </div>
+        </div>
+
+        <div class="divisor-vertical"></div>
+
+        <div class="inferior-direita">
+            <div class="container">
+                <div class="card-cliente">
+                    <div class="card-txt">
+                        Nome Sobrenome
+                        <br>
+                        (XX)X XXXX-XXXX
+                        <br>
+                        Modelo Cor
+                        <br>
+                        XXX0X00
+                    </div>
+                    <!--
+                    <div class="card-img-container">
+                        <img src="../imagens/logos/placeholder.png" alt="" class="card-img">
+                        <img src="../imagens/logos/placeholder.png" alt="" class="card-img">
+                        <img src="../imagens/logos/placeholder.png" alt="" class="card-img">
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/toggleExtraFields.js"></script>
+</body>
+</html>
