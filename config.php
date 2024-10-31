@@ -1,5 +1,4 @@
 <?php
-
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -11,5 +10,4 @@ try {
 } catch(PDOException $e) {
     echo "Erro na conexão: " . $e->getMessage();
 }
-
 ?>
